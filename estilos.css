@@ -43,7 +43,6 @@ header {
   .iframe-container {
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
     max-width:560px ;
     max-height:315px ;
     align-items: center;
