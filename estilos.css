@@ -1,0 +1,145 @@
+body {
+    font-family:'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+header {
+    background-color: black;
+    color: #E07424;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.area-menu{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E07424;
+    margin-top: auto;
+}
+.cima{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none ;
+    align-items: center;
+}
+.topo{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    overflow: auto;
+} 
+.container, .topo{
+  padding: 0px 40px;
+}
+@media(max-height:900px) and (max-width:640px){
+    .iframe-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      max-width:100%;
+      max-height:100%;
+      align-items: center;
+    }
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      max-width:100%;
+      max-height:100%;
+      align-items: center;
+    }
+  }
+section {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+figure {
+    border: thin white solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: black;
+    color: white ;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  .LeBron{
+    transition: 0.3s;
+  }
+  .X1{
+    transition: 0.3s;
+  }
+  .Enterrada{
+    transition: 0.3s;
+  }
+  .LeBron:hover{
+    font-family: cursive;
+    font-size: larger;
+    color:purple;
+    background-color: yellow;
+    
+    transition: 0.3s;
+}
+.X1:hover{
+    font-family: cursive;
+    font-size: larger;
+    color: yellow;
+    background-color: red;
+    font-size: large;
+    transition: 0.3s;
+}
+.Enterrada:hover{
+    font-family: cursive;
+    font-size: larger;
+    color: red;
+    background-color: blue;
+    font-size: large;
+    transition: 0.3s;
+ }
+ .topo:hover{
+  transition: 0.3s;
+  color: #E07424;
+  background-color: white;
+ }
+  .site:hover, .jogador:hover {
+    color: white;
+    background-color: #E07424
+ }
+ .jogador{
+    color: black;
+    list-style-type: none;
+ }
+ ul{
+    list-style-type: none;
+ }
+ .site{
+    color: #E07424;
+ }
+ footer{
+    text-align: center;}
