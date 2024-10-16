@@ -59,6 +59,9 @@ header {
       max-height:100%;
       align-items: center;
     }
+    .container, .topo{
+        padding: 0px 0px;
+} 
   }
 section {
     padding: 40px 20px;
