@@ -145,4 +145,11 @@ figure {
     color: #E07424;
  }
  footer{
-    text-align: center;}
+    text-align: center;
+  }
+  .item{
+    display: none;
+  }
+  .item.active{
+    display: block;
+  }
