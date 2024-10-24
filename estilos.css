@@ -125,7 +125,7 @@ figure {
     font-size: large;
     transition: 0.3s;
  }
- #topo:hover{
+ .topo:hover{
   transition: 0.3s;
   color: #E07424;
   background-color: white;
