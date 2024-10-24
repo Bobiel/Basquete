@@ -149,8 +149,18 @@ figure {
   }
   .item{
     display: none;
-    cursor: pointer;
   }
   .item.active{
     display: block;
+  }
+  #prev, #next{
+    cursor: pointer;
+    background-color: #eee9;
+    border:1px solid #eee9;
+    color: #eee9;
+    font-size: x-large;
+    font-family:monospace;
+    cursor: pointer;
+    z-index: 4;
+    border-radius: 50px;
   }
