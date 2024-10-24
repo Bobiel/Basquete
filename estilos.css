@@ -155,7 +155,7 @@ figure {
   }
   #prev, #next{
     cursor: pointer;
-    background-color: #eee9;
+    background-color: black;
     border:1px solid #eee9;
     color: #eee9;
     font-size: x-large;
