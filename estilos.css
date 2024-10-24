@@ -92,16 +92,16 @@ figure {
   a{
     text-decoration: none;
   }
-  .LeBron{
+  #LeBron{
     transition: 0.3s;
   }
-  .X1{
+  #X1{
     transition: 0.3s;
   }
-  .Enterrada{
+  #Enterrada{
     transition: 0.3s;
   }
-  .LeBron:hover{
+  #LeBron:hover{
     font-family: cursive;
     font-size: larger;
     color:purple;
@@ -109,7 +109,7 @@ figure {
     
     transition: 0.3s;
 }
-.X1:hover{
+#X1:hover{
     font-family: cursive;
     font-size: larger;
     color: yellow;
@@ -117,7 +117,7 @@ figure {
     font-size: large;
     transition: 0.3s;
 }
-.Enterrada:hover{
+#Enterrada:hover{
     font-family: cursive;
     font-size: larger;
     color: red;
@@ -125,7 +125,7 @@ figure {
     font-size: large;
     transition: 0.3s;
  }
- .topo:hover{
+ #topo:hover{
   transition: 0.3s;
   color: #E07424;
   background-color: white;
@@ -149,6 +149,7 @@ figure {
   }
   .item{
     display: none;
+    cursor: pointer;
   }
   .item.active{
     display: block;
