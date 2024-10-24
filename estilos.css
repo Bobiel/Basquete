@@ -161,6 +161,5 @@ figure {
     font-size: x-large;
     font-family:monospace;
     cursor: pointer;
-    z-index: 4;
     border-radius: 50px;
   }
