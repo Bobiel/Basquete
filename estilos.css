@@ -47,7 +47,7 @@ header {
   display: none;
   background-color: #e07424;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 1170px) {
   .cima {
     display: none;
     padding: 1.5rem 4rem;
