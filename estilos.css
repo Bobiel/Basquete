@@ -53,9 +53,11 @@ header {
     padding: 1.5rem 4rem;
     margin-top: 0;
   }
+  .mobile-menu{
+    position: sticky;
+  }
   .mobile-menu-icons {
     display: block;
-    position: sticky;
   }
   .mobile-menu-icons button {
     background-color: transparent;

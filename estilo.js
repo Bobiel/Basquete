@@ -45,7 +45,7 @@
           }
           else {
             menuMobile.classList.add("open");
-            document.querySelector('.icon').src="icons8-x-30.png";
+            document.querySelector('.icon').src="icons8-x-30 (1).png";
 
           }
         }
