@@ -74,7 +74,6 @@ header {
   #mobile_btn{
     display: block;
     border: none;
-    background-color: transparent;
     font-size: 1.5rem;
     cursor: pointer;
 }
