@@ -41,11 +41,11 @@
           let menuMobile = document.querySelector(".mobile-menu");
           if (menuMobile.classList.contains("open")) {
             menuMobile.classList.remove("open");
-            document.querySelector('.icon').src= "icons8-cardápio-30.png";
+            document.querySelector('.icon').src="icons8-cardápio-30.png";
           }
           else {
             menuMobile.classList.add("open");
-            document.querySelector('.icon').src= "icons8-x-50.png";
+            document.querySelector('.icon').src="icons8-x-30.png";
 
           }
         }
