@@ -40,6 +40,37 @@ header {
 .container, .topo{
   padding: 0px 40px;
 }
+.mobile-menu-icons {
+  display: none;
+}
+.mobile-menu {
+  display: none;
+  background-color: #e07424;
+}
+@media screen and (max-width: 730px) {
+  .cima {
+    display: none;
+    padding: 1.5rem 4rem;
+    margin-top: 0;
+  }
+  .mobile-menu-icons {
+    display: block;
+  }
+  .mobile-menu-icons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .open {
+    display: block;
+  }
+}
 @media(max-height:900px) and (max-width:640px){
     .iframe-container {
       position: relative;
