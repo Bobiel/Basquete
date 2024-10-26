@@ -55,6 +55,7 @@ header {
   }
   .mobile-menu-icons {
     display: block;
+    position: sticky;
   }
   .mobile-menu-icons button {
     background-color: transparent;
