@@ -70,7 +70,6 @@ header {
   .open {
     display: block;
   }
-}
     .iframe-container {
       position: relative;
       overflow: hidden;
@@ -89,6 +88,7 @@ header {
     .container, .topo{
         padding: 0px 0px;
 } 
+}
 
 section {
     padding: 40px 20px;
