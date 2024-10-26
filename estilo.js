@@ -41,7 +41,7 @@
           let menuMobile = document.querySelector(".mobile-menu");
           if (menuMobile.classList.contains("open")) {
             menuMobile.classList.remove("open");
-            document.querySelector('.icon').src= ""
+            document.querySelector('.icon').src= "x-solid.svg"
           }
            else {
             menuMobile.classList.add("open");
