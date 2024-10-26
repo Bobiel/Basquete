@@ -71,12 +71,6 @@ header {
   .open {
     display: block;
   }
-  #mobile_btn{
-    display: block;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
     .iframe-container {
       position: relative;
       overflow: hidden;
